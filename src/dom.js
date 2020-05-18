@@ -81,7 +81,7 @@ window.dom = {   //创造我们的库,是我们提供的全局对象
 
     },
     //dom.style(node,{color:'red'}) 用于修改style
-    style(node, object, value) {
+    style(node, name, value) {
         if (arguments.length === 3) {
             //dom.style(div, 'color', 'red')
             node.style[name] = value
